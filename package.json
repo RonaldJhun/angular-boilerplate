@@ -4,10 +4,11 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve --open",
-        "build": "ng build",
+        "build": "ng n",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "start:dev": "nodemon ./src/main.ts"
     },
     "private": true,
     "dependencies": {
@@ -19,6 +20,7 @@
         "@angular/platform-browser": "^17.3.2",
         "@angular/platform-browser-dynamic": "^17.3.2",
         "@angular/router": "^17.3.2",
+        "nodemon": "^3.1.0",
         "rxjs": "^6.5.5",
         "tslib": "^2.0.0",
         "zone.js": "^0.14.4"
